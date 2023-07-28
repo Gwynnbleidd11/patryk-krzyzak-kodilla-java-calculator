@@ -2,7 +2,9 @@ public class Main {
 
     public static void main(String[] args) {
 
-        System.out.println("Hello world!");
+        Calculator calculator = new Calculator(15, 10);
+        System.out.println(calculator.addition());
+        System.out.println(calculator.subtraction());
 
     }
 }
